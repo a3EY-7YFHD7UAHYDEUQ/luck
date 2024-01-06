@@ -1,0 +1,290 @@
+local KeyStrokes0prme = Instance.new("ScreenGui")
+    local KeyStrokes = Instance.new("Frame")
+    local A = Instance.new("TextLabel")
+    local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+    local Sample = Instance.new("ImageLabel")
+    local UICorner = Instance.new("UICorner")
+    local DropShadowHolder = Instance.new("Frame")
+    local DropShadow = Instance.new("ImageLabel")
+    local D = Instance.new("TextLabel")
+    local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+    local Sample_2 = Instance.new("ImageLabel")
+    local UICorner_2 = Instance.new("UICorner")
+    local DropShadowHolder_2 = Instance.new("Frame")
+    local DropShadow_2 = Instance.new("ImageLabel")
+    local S = Instance.new("TextLabel")
+    local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+    local Sample_3 = Instance.new("ImageLabel")
+    local UICorner_3 = Instance.new("UICorner")
+    local DropShadowHolder_3 = Instance.new("Frame")
+    local DropShadow_3 = Instance.new("ImageLabel")
+    local W = Instance.new("TextLabel")
+    local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+    local Sample_4 = Instance.new("ImageLabel")
+    local UICorner_4 = Instance.new("UICorner")
+    local DropShadowHolder_4 = Instance.new("Frame")
+    local DropShadow_4 = Instance.new("ImageLabel")
+    local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+
+
+    KeyStrokes0prme.Name = "KeyStrokes0prme"
+    KeyStrokes0prme.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    KeyStrokes0prme.ResetOnSpawn = false
+
+    KeyStrokes.Name = "KeyStrokes"
+    KeyStrokes.Parent = KeyStrokes0prme
+    KeyStrokes.AnchorPoint = Vector2.new(0, 1)
+    KeyStrokes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    KeyStrokes.BackgroundTransparency = 1.000
+    KeyStrokes.BorderSizePixel = 0
+    KeyStrokes.Position = UDim2.new(0.0133982208, 0, 0.820680082, 0)
+    KeyStrokes.Size = UDim2.new(0.132738084, 0, 0.163661122, 0)
+
+    A.Name = "A"
+    A.Parent = KeyStrokes
+    A.AnchorPoint = Vector2.new(0.5, 0.5)
+    A.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+    A.BackgroundTransparency = 0.550
+    A.BorderSizePixel = 0
+    A.Position = UDim2.new(0.202794269, 0, 0.551600575, 0)
+    A.Size = UDim2.new(0.325873554, 0, 0.412131518, 0)
+    A.Font = Enum.Font.SourceSansSemibold
+    A.Text = "A"
+    A.TextColor3 = Color3.fromRGB(255, 255, 255)
+    A.TextScaled = true
+    A.TextSize = 30.000
+    A.TextWrapped = true
+
+    UITextSizeConstraint.Parent = A
+    UITextSizeConstraint.MaxTextSize = 30
+
+    Sample.Name = "Sample"
+    Sample.Parent = A
+    Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Sample.BackgroundTransparency = 1.000
+    Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+    Sample.ImageColor3 = Color3.fromRGB(0, 0, 0)
+    Sample.ImageTransparency = 0.600
+
+    UICorner.Parent = A
+
+    DropShadowHolder.Name = "DropShadowHolder"
+    DropShadowHolder.Parent = A
+    DropShadowHolder.BackgroundTransparency = 1.000
+    DropShadowHolder.BorderSizePixel = 0
+    DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
+    DropShadowHolder.ZIndex = 0
+
+    DropShadow.Name = "DropShadow"
+    DropShadow.Parent = DropShadowHolder
+    DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+    DropShadow.BackgroundTransparency = 1.000
+    DropShadow.BorderSizePixel = 0
+    DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+    DropShadow.Size = UDim2.new(1, 47, 1, 47)
+    DropShadow.ZIndex = 0
+    DropShadow.Image = "rbxassetid://6014261993"
+    DropShadow.ImageColor3 = Color3.fromRGB(87, 53, 255)
+    DropShadow.ScaleType = Enum.ScaleType.Slice
+    DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+    D.Name = "D"
+    D.Parent = KeyStrokes
+    D.AnchorPoint = Vector2.new(0.5, 0.5)
+    D.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+    D.BackgroundTransparency = 0.550
+    D.BorderSizePixel = 0
+    D.Position = UDim2.new(0.922158122, 0, 0.551600516, 0)
+    D.Size = UDim2.new(0.325639635, 0, 0.412173361, 0)
+    D.Font = Enum.Font.SourceSansSemibold
+    D.Text = "D"
+    D.TextColor3 = Color3.fromRGB(255, 255, 255)
+    D.TextScaled = true
+    D.TextSize = 30.000
+    D.TextWrapped = true
+
+    UITextSizeConstraint_2.Parent = D
+    UITextSizeConstraint_2.MaxTextSize = 30
+
+    Sample_2.Name = "Sample"
+    Sample_2.Parent = D
+    Sample_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Sample_2.BackgroundTransparency = 1.000
+    Sample_2.Image = "http://www.roblox.com/asset/?id=4560909609"
+    Sample_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+    Sample_2.ImageTransparency = 0.600
+
+    UICorner_2.Parent = D
+
+    DropShadowHolder_2.Name = "DropShadowHolder"
+    DropShadowHolder_2.Parent = D
+    DropShadowHolder_2.BackgroundTransparency = 1.000
+    DropShadowHolder_2.BorderSizePixel = 0
+    DropShadowHolder_2.Size = UDim2.new(1, 0, 1, 0)
+    DropShadowHolder_2.ZIndex = 0
+
+    DropShadow_2.Name = "DropShadow"
+    DropShadow_2.Parent = DropShadowHolder_2
+    DropShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+    DropShadow_2.BackgroundTransparency = 1.000
+    DropShadow_2.BorderSizePixel = 0
+    DropShadow_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+    DropShadow_2.Size = UDim2.new(1, 47, 1, 47)
+    DropShadow_2.ZIndex = 0
+    DropShadow_2.Image = "rbxassetid://6014261993"
+    DropShadow_2.ImageColor3 = Color3.fromRGB(87, 53, 255)
+    DropShadow_2.ScaleType = Enum.ScaleType.Slice
+    DropShadow_2.SliceCenter = Rect.new(49, 49, 450, 450)
+
+    S.Name = "S"
+    S.Parent = KeyStrokes
+    S.AnchorPoint = Vector2.new(0.5, 0.5)
+    S.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+    S.BackgroundTransparency = 0.550
+    S.BorderSizePixel = 0
+    S.Position = UDim2.new(0.560677588, 0, 0.551600516, 0)
+    S.Size = UDim2.new(0.325639695, 0, 0.412173361, 0)
+    S.Font = Enum.Font.SourceSansSemibold
+    S.Text = "S"
+    S.TextColor3 = Color3.fromRGB(255, 255, 255)
+    S.TextScaled = true
+    S.TextSize = 30.000
+    S.TextWrapped = true
+
+    UITextSizeConstraint_3.Parent = S
+    UITextSizeConstraint_3.MaxTextSize = 30
+
+    Sample_3.Name = "Sample"
+    Sample_3.Parent = S
+    Sample_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Sample_3.BackgroundTransparency = 1.000
+    Sample_3.Image = "http://www.roblox.com/asset/?id=4560909609"
+    Sample_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+    Sample_3.ImageTransparency = 0.600
+
+    UICorner_3.Parent = S
+
+    DropShadowHolder_3.Name = "DropShadowHolder"
+    DropShadowHolder_3.Parent = S
+    DropShadowHolder_3.BackgroundTransparency = 1.000
+    DropShadowHolder_3.BorderSizePixel = 0
+    DropShadowHolder_3.Size = UDim2.new(1, 0, 1, 0)
+    DropShadowHolder_3.ZIndex = 0
+
+    DropShadow_3.Name = "DropShadow"
+    DropShadow_3.Parent = DropShadowHolder_3
+    DropShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+    DropShadow_3.BackgroundTransparency = 1.000
+    DropShadow_3.BorderSizePixel = 0
+    DropShadow_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+    DropShadow_3.Size = UDim2.new(1, 47, 1, 47)
+    DropShadow_3.ZIndex = 0
+    DropShadow_3.Image = "rbxassetid://6014261993"
+    DropShadow_3.ImageColor3 = Color3.fromRGB(87, 53, 255)
+    DropShadow_3.ScaleType = Enum.ScaleType.Slice
+    DropShadow_3.SliceCenter = Rect.new(49, 49, 450, 450)
+
+    W.Name = "W"
+    W.Parent = KeyStrokes
+    W.AnchorPoint = Vector2.new(0.5, 0.5)
+    W.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+    W.BackgroundTransparency = 0.550
+    W.BorderSizePixel = 0
+    W.Position = UDim2.new(0.560677588, 0, 0.0975572094, 0)
+    W.Size = UDim2.new(0.325639695, 0, 0.41217339, 0)
+    W.Font = Enum.Font.SourceSansSemibold
+    W.Text = "W"
+    W.TextColor3 = Color3.fromRGB(255, 255, 255)
+    W.TextScaled = true
+    W.TextSize = 30.000
+    W.TextWrapped = true
+
+    UITextSizeConstraint_4.Parent = W
+    UITextSizeConstraint_4.MaxTextSize = 30
+
+    Sample_4.Name = "Sample"
+    Sample_4.Parent = W
+    Sample_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Sample_4.BackgroundTransparency = 1.000
+    Sample_4.Image = "http://www.roblox.com/asset/?id=4560909609"
+    Sample_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+    Sample_4.ImageTransparency = 0.600
+
+    UICorner_4.Parent = W
+
+    DropShadowHolder_4.Name = "DropShadowHolder"
+    DropShadowHolder_4.Parent = W
+    DropShadowHolder_4.BackgroundTransparency = 1.000
+    DropShadowHolder_4.BorderSizePixel = 0
+    DropShadowHolder_4.Size = UDim2.new(1, 0, 1, 0)
+    DropShadowHolder_4.ZIndex = 0
+
+    DropShadow_4.Name = "DropShadow"
+    DropShadow_4.Parent = DropShadowHolder_4
+    DropShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+    DropShadow_4.BackgroundTransparency = 1.000
+    DropShadow_4.BorderSizePixel = 0
+    DropShadow_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+    DropShadow_4.Size = UDim2.new(1, 47, 1, 47)
+    DropShadow_4.ZIndex = 0
+    DropShadow_4.Image = "rbxassetid://6014261993"
+    DropShadow_4.ImageColor3 = Color3.fromRGB(87, 53, 255)
+    DropShadow_4.ScaleType = Enum.ScaleType.Slice
+    DropShadow_4.SliceCenter = Rect.new(49, 49, 450, 450)
+
+    UIAspectRatioConstraint.Parent = KeyStrokes
+    UIAspectRatioConstraint.AspectRatio = 1.270
+
+    -- Scripts:
+
+    local function ZOQW_fake_script() -- KeyStrokes.Input 
+        local script = Instance.new('LocalScript', KeyStrokes)
+
+        local UIS = game:GetService("UserInputService")
+        local buttons = {}
+        buttons.UserInputType = {}
+        buttons.KeyCode = {}
+        local uit = buttons.UserInputType
+        local kc = buttons.KeyCode
+        kc.S = script.Parent.S
+        kc.A = script.Parent.A
+        kc.W = script.Parent.W
+        kc.D = script.Parent.D
+        
+        
+        function checkKey1(key)
+            local result
+            if key.KeyCode == Enum.KeyCode.Unknown then
+                result = "UserInputType" 
+            else
+                result = "KeyCode" 
+            end
+            return result
+        end
+        function scanKey(key)
+            local k = checkKey1(key)
+            for i,v in pairs(buttons[k]) do
+                if key[k] == Enum[k][i] then
+                    return v
+                end
+        end
+        end
+        UIS.InputBegan:Connect(function(key,typing)
+            if typing then return end	
+            local v = scanKey(key)
+            if v then
+                v.BackgroundColor3 = Color3.new(0.956863, 0.32549, 1)
+            end
+        end)
+        
+        UIS.InputEnded:Connect(function(key,typing)
+            if typing then return end	
+            local v = scanKey(key)
+            if v then
+                v.BackgroundColor3 = Color3.new(0.0470588, 0.0470588, 0.0470588)
+            end
+        end)
+    end
+    coroutine.wrap(ZOQW_fake_script)()
+    wait()
+end
